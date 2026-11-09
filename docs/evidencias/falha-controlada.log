@@ -1,0 +1,12 @@
+2026-11-09T11:25:26.7458142Z ##[error]   3:2  error  Element <head> is implicitly closed by adjacent <img>     no-implicit-close
+2026-11-09T11:25:26.7466872Z ##[error]   3:2  error  <head> element must have <title> as content               element-required-content
+2026-11-09T11:25:26.7468435Z ##[error]   7:3  error  Element <body> is implicitly closed by parent </html>     no-implicit-close
+2026-11-09T11:25:26.7469830Z ##[error]   7:4  error  <img> is missing required "alt" attribute                 wcag/h37
+2026-11-09T11:25:26.7471265Z ##[error]   8:4  error  <meta> element is not permitted as content under <body>   element-permitted-content
+2026-11-09T11:25:26.7472719Z ##[error]   9:4  error  <title> element is not permitted as content under <body>  element-permitted-content
+2026-11-09T11:25:26.7474384Z ##[error]   9:4  error  <title> element requires a <head> element as parent       element-permitted-parent
+2026-11-09T11:25:26.7475878Z ##[error]  10:4  error  <link> element is not permitted as content under <body>   element-permitted-content
+2026-11-09T11:25:26.7477176Z ##[error]  15:2  error  Stray end tag '</head>'                                   close-order
+2026-11-09T11:25:26.7478613Z ##[error]  16:2  error  <body> element is not permitted as content under <body>   element-permitted-content
+2026-11-09T11:25:26.7479922Z ✖ 10 problems (10 errors, 0 warnings)
+2026-11-09T11:25:26.7607653Z ##[error]Process completed with exit code 1.

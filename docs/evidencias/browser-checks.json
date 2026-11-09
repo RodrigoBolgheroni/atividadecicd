@@ -1,0 +1,45 @@
+{
+  "url": "https://rodrigobolgheroni.github.io/atividadecicd/",
+  "checkedAt": "2026-11-09T11:30:26.902Z",
+  "results": [
+    {
+      "width": 1440,
+      "html200": true,
+      "noOverflow": true,
+      "images": true,
+      "anchors": true,
+      "keyboard": true,
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "html200": true,
+      "noOverflow": true,
+      "images": true,
+      "anchors": true,
+      "keyboard": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "html200": true,
+      "noOverflow": true,
+      "images": true,
+      "anchors": true,
+      "keyboard": true,
+      "pageErrors": []
+    },
+    {
+      "width": 320,
+      "html200": true,
+      "noOverflow": true,
+      "images": true,
+      "anchors": true,
+      "keyboard": true,
+      "pageErrors": []
+    },
+    {
+      "fontFallback": true
+    }
+  ]
+}
