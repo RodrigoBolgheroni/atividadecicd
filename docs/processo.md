@@ -51,7 +51,7 @@ Resultado: implementação e validação conduzidas pelo agente, com uso de ferr
 - A configuração inicial do validador continha `void-style: omitted`, opção inválida. A regra redundante foi removida; manteve-se o conjunto recomendado.
 - A validação detectou dois `aria-label` em elementos genéricos que não podiam recebê-los. Os rótulos foram removidos preservando o conteúdo visível.
 - O primeiro teste de imagens no navegador não esperava o carregamento de imagens com lazy loading. O teste foi ajustado para rolar até cada imagem e aguardar sua decodificação; isso foi uma correção no teste, não uma falha do site.
-- Depois da primeira CI válida no PR, foi inserida deliberadamente uma imagem sem texto alternativo dentro de `head`. Esse erro foi um experimento controlado para demonstrar a falha da CI, e não um defeito descoberto em produção. A alteração deve ser removida antes do merge.
+- Depois da primeira CI válida no PR, foi inserida deliberadamente uma imagem sem texto alternativo dentro de `head`. Esse erro foi um experimento controlado para demonstrar a falha da CI, e não um defeito descoberto em produção. A CI apontou 10 erros e falhou; a alteração foi removida e a nova CI passou antes do merge.
 
 ## Alterações manuais
 
